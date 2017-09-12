@@ -1,5 +1,6 @@
 package com.peppe.amanbhardwaj.peppe.util;
 
+import com.peppe.amanbhardwaj.peppe.bizobj.PetProfile;
 import com.peppe.amanbhardwaj.peppe.bizobj.ServiceCategory;
 
 import java.security.Provider;
@@ -42,6 +43,43 @@ public class TestUtil {
         cat4.setTotalActiveDeals(30);
 
         list.add(cat4);
+
+        return list;
+    }
+
+    public static List<PetProfile> getPetProfiles(){
+        List <PetProfile> list = new ArrayList<>();
+
+        PetProfile pet1 = new PetProfile();
+        pet1.setPetID(1);
+        pet1.setPetName("Jabby");
+        pet1.setBreed("German Shefferd");
+        pet1.setGender("Female");
+        pet1.setAge(9);
+        pet1.setUserID(12345);
+
+        list.add(pet1);
+
+        PetProfile pet2 = new PetProfile();
+        pet2.setPetID(2);
+        pet2.setPetName("Tribe");
+        pet2.setBreed("Labrador");
+        pet2.setGender("Male");
+        pet2.setAge(6);
+        pet2.setUserID(12345);
+
+        list.add(pet2);
+
+
+        PetProfile pet3 = new PetProfile();
+        pet3.setPetID(3);
+        pet3.setPetName("Hector");
+        pet3.setBreed("Labrador");
+        pet3.setGender("Male");
+        pet3.setAge(6);
+        pet3.setUserID(12345);
+
+        list.add(pet3);
 
         return list;
     }

@@ -40,7 +40,17 @@
         <activity
             android:name=".LandingPageActivity"
             android:label="@string/title_activity_landing_page"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BuddiesListActivity"
+            android:label="@string/title_activity_buddies_list"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

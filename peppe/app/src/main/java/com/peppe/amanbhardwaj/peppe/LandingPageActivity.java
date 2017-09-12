@@ -135,9 +135,10 @@ public class LandingPageActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_my_buddies) {
+            navigateToBuddiesList();
         } else if (id == R.id.nav_orders) {
 
-        } else if (id == R.id.nav_orders) {
+        } else if (id == R.id.nav_offers) {
 
         } else if (id == R.id.nav_contact_us) {
 
@@ -148,5 +149,10 @@ public class LandingPageActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void navigateToBuddiesList() {
+        Intent intent = new Intent(LandingPageActivity.this,BuddiesListActivity.class);
+        startActivity(intent);
     }
 }

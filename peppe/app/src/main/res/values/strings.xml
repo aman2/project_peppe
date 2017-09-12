@@ -106,4 +106,5 @@
     <string name="user">User</string>
     <string name="add_buddies">Add Buddies</string>
     <string name="title_activity_landing_page">Peppe</string>
+    <string name="title_activity_buddies_list">Buddies</string>
 </resources>
