@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200sp"
+    android:background="@color/viewBg"
+    android:layout_marginTop="5dp"
+    android:gravity="center"
+    android:elevation="5dp"
+    android:id="@+id/displayPic1"
+    >
+
+    <TextView
+        android:id="@+id/categoryName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/activeDeal1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        android:textStyle="bold"
+        android:paddingLeft="16sp"
+        android:paddingRight="16sp"
+        android:background="@drawable/card_white_border"
+        android:textColor="@color/white_pressed"
+        android:textSize="16sp"
+
+
+         />
+
+
+
+
+</LinearLayout>

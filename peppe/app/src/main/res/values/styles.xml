@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.base" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue_a_400</item>
+        <item name="colorPrimaryDark">@color/blue_a_700</item>
+        <item name="colorAccent">@color/white</item>
+
+    </style>
+
+    <style name="MyEditTextTheme">
+        <!-- Used for the bottom line when not selected / focused -->
+        <item name="colorControlNormal">@color/primaryColorDark</item>
+        <item name="colorControlActivated">@color/primaryColorDark</item>
+        <item name="colorControlHighlight">@color/primaryColorDark</item>
+        <!-- colorControlActivated & colorControlHighlight use the colorAccent color by default -->
+    </style>
+
+
+    <style name="NavigationTheme" parent="AppTheme">
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginBottom">02dp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>
