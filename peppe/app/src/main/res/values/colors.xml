@@ -4,10 +4,12 @@
     <color name="primaryColor">#212121</color>
     <color name="primaryColorDark">#000000</color>
     <color name="windowBackground">#B2000000</color>
+
     <color name="accentColor">#757575</color>
     <color name="viewBg">#f1f5f8</color>
 
     <!-- blue theme-->
+
     <color name="blue_900">#1976D2</color>
     <color name="blue_700">#2196F3</color>
     <color name="blue_800">#1565C0</color>
@@ -24,22 +26,36 @@
     <color name="blue_a_100">#82B1FF</color>
 
 
+    <!-- Teal theme -->
 
-    <!-- Added widget theme Colors  -->
-    <color name="route_status_bar_theme">#1976D2</color>
-    <color name="route_theme">#2196F3</color>
+    <color name="teal_900">#004D40</color>
+    <color name="teal_700">#00695C</color>
+    <color name="teal_800">#00796B</color>
+    <color name="teal_600">#00897B</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_400">#26A69A</color>
+    <color name="teal_300">#4DB6AC</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_100">#B2DFDB</color>
+    <color name="teal_50">#E0F2F1</color>
+    <color name="teal_bg">#c5d9d9</color>
+    <color name="teal_a_700">#00BFA5</color>
+    <color name="teal_a_400">#1DE9B6</color>
+    <color name="teal_a_200">#64FFDA</color>
+    <color name="teal_a_100">#A7FFEB</color>
 
-    <color name="expense_status_bar_theme">#D32F2F</color>
-    <color name="expense_theme">#F44336</color>
+    <!-- Red -->
+    <color name="red_900">#B71C1C</color>
+    <color name="red_500">#F44336</color>
+    <color name="red_200">#EF9A9A</color>
 
-    <color name="efficiency_status_bar_theme">#C2185B</color>
-    <color name="efficiency_theme">#E91E63</color>
+    <!-- indigo -->
+    <!-- Red -->
+    <color name="indigo_900">#1A237E</color>
+    <color name="indigo_700">#303F9F</color>
+    <color name="indigo_200">#9FA8DA</color>
 
-    <color name="task_status_bar_theme">#303F9F</color>
-    <color name="task_theme">#3F51B5</color>
-
-    <color name="fab_dashboard_primary">#E91E63</color>
-    <color name="fab_dashboard_primary_pressed">#C2185B</color>
+    <color name="black">#000000</color>
 
     <color name="black_semi_transparent">#b2000000</color>
     <color name="background">#e5e5e5</color>
@@ -48,29 +64,6 @@
     <color name="white_pressed">#f1f1f1</color>
     <color name="white_bright">#00ffffff</color>
 
-
-
-    <!-- Color code list -->
-
-    <color name="deepOrange700">#E64A19</color>
-    <color name ="deeporange200">#FFAB91</color>
-    <color name ="orange700">#FB8C00</color>
-    <color name="orange200">#FFCC80</color>
-    <color name ="red900">#B71C1C</color>
-    <color name ="red500">#F44336</color>
-    <color name="red200">#EF9A9A</color>
-    <color name ="yellow700">#FFD600</color>
-    <color name ="yellow200">#FFFF00</color>
-    <color name="blue700">#2962FF</color>
-    <color name ="blue200">#448AFF</color>
-    <color name ="indigo700">#303F9F</color>
-    <color name="indigo200">#536DFE</color>
-    <color name ="bluegrey700">#455A64</color>
-    <color name ="bluegrey200">#B0BEC5</color>
-    <color name="pink700">#C2185B</color>
-    <color name ="pink200">#FF4081</color>
-    <color name="green700">#388E3C</color>
-    <color name ="green200">#69F0AE</color>
 
 
 </resources>

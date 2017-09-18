@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/viewBg"
+    android:background="@color/teal_50"
     tools:context="com.peppe.amanbhardwaj.peppe.UserDetailsActivity">
 
 
@@ -26,9 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_gravity="bottom"
-        android:background="@color/primaryColorDark"
-        app:itemTextColor="@color/white"
-        app:itemIconTint="@color/white"
+        android:background="@color/teal_100"
+        app:itemTextColor="@color/black"
+        app:itemIconTint="@color/black"
         android:visibility="visible"
         app:menu="@menu/navigation" />
 

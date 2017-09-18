@@ -7,23 +7,20 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.peppe.amanbhardwaj.peppe.UserDetailsActivity"
     tools:showIn="@layout/activity_user_details"
-    android:background="@color/viewBg"
+    android:background="@color/teal_50"
     tools:layout_editor_absoluteY="81dp"
     tools:layout_editor_absoluteX="0dp">
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="401dp"
-        android:layout_height="190dp"
+        android:layout_width="0dp"
+        android:layout_height="230dp"
         android:background="@drawable/training3"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp" />
+         />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -85,7 +82,7 @@
         android:layout_height="2dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
-        android:background="@color/com_facebook_button_login_silver_background_color_pressed"
+        android:background="@color/teal_bg"
         android:orientation="vertical"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -101,7 +98,7 @@
         android:layout_height="25dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
-        android:background="@color/com_facebook_button_login_silver_background_color_pressed"
+        android:background="@color/teal_bg"
         android:orientation="vertical"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -121,7 +118,7 @@
         android:layout_marginRight="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="10dp"
-        android:background="@color/com_facebook_button_login_silver_background_color_pressed"
+        android:background="@color/teal_bg"
         android:orientation="vertical"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -133,7 +130,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="0dp"
         android:text="CODE"
         android:background="@drawable/card_black_border"
         android:paddingTop="5dp"
@@ -145,7 +141,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="@+id/linearLayout5"
-        android:layout_marginTop="-8dp" />
+        android:layout_marginStart="8dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -162,7 +158,8 @@
         android:textColor="@color/white"
         app:layout_constraintRight_toRightOf="@+id/linearLayout5"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/referal_text" />
+        app:layout_constraintTop_toBottomOf="@+id/referal_text"
+        android:layout_marginEnd="8dp" />
 
     <LinearLayout
         android:layout_width="0dp"
@@ -172,7 +169,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="65dp"
-        android:background="@color/viewBg"
+        android:background="@color/teal_50"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintHorizontal_bias="0.0"
@@ -217,7 +214,7 @@
                     android:background="@drawable/card_black"
                     android:elevation="5sp"
                     android:padding="3sp"
-                    android:src="@drawable/dog3" />
+                    android:src="@drawable/puppy1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -241,7 +238,7 @@
                     android:background="@drawable/card_black"
                     android:elevation="5sp"
                     android:padding="3sp"
-                    android:src="@drawable/dog1" />
+                    android:src="@drawable/puppy1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -265,7 +262,7 @@
                     android:background="@drawable/card_black"
                     android:elevation="5sp"
                     android:padding="3sp"
-                    android:src="@drawable/dog2" />
+                    android:src="@drawable/puppy1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -298,7 +295,7 @@
                     android:background="@drawable/card_black"
                     android:elevation="5sp"
                     android:padding="3sp"
-                    android:src="@drawable/peppe_sqare_logo" />
+                    android:src="@drawable/puppy1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -322,7 +319,7 @@
                     android:background="@drawable/card_black"
                     android:elevation="5sp"
                     android:padding="3sp"
-                    android:src="@drawable/peppe_sqare_logo" />
+                    android:src="@drawable/puppy1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -346,7 +343,7 @@
                     android:background="@drawable/card_black"
                     android:elevation="5sp"
                     android:padding="3sp"
-                    android:src="@drawable/peppe_sqare_logo" />
+                    android:src="@drawable/puppy1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -380,7 +377,7 @@
                     android:background="@drawable/card_black"
                     android:elevation="5sp"
                     android:padding="3sp"
-                    android:src="@drawable/peppe_sqare_logo" />
+                    android:src="@drawable/puppy1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -404,7 +401,7 @@
                     android:background="@drawable/card_black"
                     android:elevation="5sp"
                     android:padding="3sp"
-                    android:src="@drawable/peppe_sqare_logo" />
+                    android:src="@drawable/puppy1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -428,7 +425,7 @@
                     android:background="@drawable/card_black"
                     android:elevation="5sp"
                     android:padding="3sp"
-                    android:src="@drawable/peppe_sqare_logo" />
+                    android:src="@drawable/puppy1" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -451,24 +448,26 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="30dp"
         android:padding="1dp"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        android:layout_marginStart="16dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Refer friends"
-        android:layout_marginRight="8sp"
+        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/imageView"
-        android:layout_marginTop="30sp"
+        android:layout_marginTop="30dp"
         android:paddingTop="5sp"
         android:paddingBottom="5sp"
         android:paddingLeft="15sp"
         android:paddingRight="15sp"
         android:background="@drawable/card_black_border"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginEnd="8dp" />
 
 
 </android.support.constraint.ConstraintLayout>

@@ -6,20 +6,20 @@
     android:layout_height="match_parent"
 
     android:orientation="vertical"
-    android:background="@color/viewBg"
+    android:background="@color/white_pressed"
     android:weightSum="5">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@color/blue_50"
+        android:background="@color/teal_50"
         android:layout_weight="0.8">
     <LinearLayout
         android:id="@+id/logo_layout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@drawable/imgbgblur"
+        android:background="@drawable/pet_login"
         android:gravity="center"
         android:orientation="vertical"
         android:layout_alignParentTop="true"
@@ -44,7 +44,7 @@
             android:layout_alignStart="@+id/linearLayout2"
             android:layout_below="@+id/linearLayout2"
             android:layout_weight="1"
-            android:elevation="10dp"
+            android:elevation="5dp"
             app:srcCompat="@drawable/peppe_trans2" />
     </LinearLayout>
     </RelativeLayout>
@@ -52,7 +52,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/blue_50"
+        android:background="@color/teal_50"
         android:orientation="vertical"
         android:gravity="center"
         android:layout_weight="3">
@@ -60,13 +60,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginBottom="10dp">
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom">
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_marginRight="15dp"
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="@dimen/icon_height"
+                android:layout_marginRight="@dimen/card_margin_right"
                 android:src="@drawable/ic_pets_black_24dp"
                 />
 
@@ -76,21 +76,21 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/primaryColorDark"
                 android:text="Find the perfect vacation home for your buddy"
-                android:textSize="14sp"
+                android:textSize="@dimen/desc_h1"
                 />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginBottom="10dp">
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom">
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="@dimen/icon_width"
                 android:src="@drawable/ic_redeem_black_24dp"
-                android:layout_marginRight="15dp"
+                android:layout_marginRight="@dimen/card_margin_right"
                 />
 
             <TextView
@@ -98,7 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/primaryColorDark"
-                android:textSize="14sp"
+                android:textSize="@dimen/desc_h1"
                 android:text="Explore best services and facilities in best price"
                 />
         </LinearLayout>
@@ -106,12 +106,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginBottom="10dp">
+            android:layout_marginLeft="@dimen/margin_left"
+            android:layout_marginRight="@dimen/margin_right"
+            android:layout_marginBottom="@dimen/margin_bottom">
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="@dimen/icon_width"
+                android:layout_height="@dimen/icon_width"
                 android:layout_marginRight="15dp"
                 android:src="@drawable/ic_favorite_black_24dp"
                 />
@@ -121,7 +121,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/primaryColorDark"
-                android:textSize="14sp"
+                android:textSize="@dimen/desc_h1"
                 android:text="you care for all family member"
                 />
         </LinearLayout>
@@ -176,7 +176,7 @@
                 android:layout_height="20dp"
                 android:layout_marginLeft="7dp"
                 android:layout_marginRight="25dp"
-                android:src="@drawable/gmail_icon" />
+                android:src="@drawable/gmail" />
 
             <TextView
                 android:id="@+id/gmailBtnText"

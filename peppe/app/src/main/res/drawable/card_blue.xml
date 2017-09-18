@@ -4,14 +4,14 @@
 
         <shape android:shape="rectangle">
             <gradient
-                android:startColor="@color/indigo200"
-                android:endColor="@color/indigo200"
+                android:startColor="@color/indigo_200"
+                android:endColor="@color/indigo_200"
                 android:type="linear"
                 android:angle="270"
-                android:centerColor="@color/indigo700" />
+                android:centerColor="@color/indigo_700" />
             <stroke
                 android:width="1dp"
-                android:color="@color/indigo700" />
+                android:color="@color/indigo_700" />
             <corners
                 android:radius="5dp" />
         </shape>
@@ -24,14 +24,14 @@
         android:bottom="0dp">
         <shape android:shape="rectangle">
             <gradient
-                android:startColor="@color/indigo200"
-                android:endColor="@color/indigo200"
+                android:startColor="@color/indigo_200"
+                android:endColor="@color/indigo_200"
                 android:type="linear"
                 android:angle="270"
-                android:centerColor="@color/indigo700" />
+                android:centerColor="@color/indigo_700" />
             <stroke
                 android:width="1dp"
-                android:color="@color/indigo200" />
+                android:color="@color/indigo_200" />
             <corners
                 android:radius="5dp" />
         </shape>
