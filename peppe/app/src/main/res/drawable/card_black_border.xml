@@ -11,7 +11,7 @@
                 android:centerColor="@color/accentColor" />
             <stroke
                 android:width="1dp"
-                android:color="@color/accentColor" />
+                android:color="@color/black_semi_transparent" />
             <corners
                 android:radius="20dp" />
         </shape>
@@ -24,16 +24,16 @@
         android:bottom="0dp">
         <shape android:shape="rectangle">
             <gradient
-                android:startColor="@color/viewBg"
-                android:endColor="@color/viewBg"
+                android:startColor="@color/teal_50"
+                android:endColor="@color/teal_50"
                 android:type="linear"
                 android:angle="270"
-                android:centerColor="@color/viewBg" />
+                android:centerColor="@color/teal_50" />
             <stroke
                 android:width="2dp"
-                android:color="@color/accentColor" />
+                android:color="@color/black_semi_transparent" />
             <corners
-                android:radius="0dp" />
+                android:radius="5dp" />
         </shape>
     </item>
 </layer-list>

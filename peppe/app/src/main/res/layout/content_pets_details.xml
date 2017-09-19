@@ -13,8 +13,8 @@
 
     <ImageView
         android:id="@+id/petImageView"
-        android:layout_width="0dp"
-        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
         android:background="@drawable/puppy1"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -23,156 +23,241 @@
 
     <TextView
         android:id="@+id/petName"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="left"
         android:text="JABBY"
-        android:textSize="@dimen/title"
+        android:textSize="@dimen/profile_title"
         app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/profile_margin_top"
         android:textColor="@color/black"
         android:textStyle="bold"
-
         app:layout_constraintTop_toBottomOf="@+id/petImageView"
-        app:layout_constraintHorizontal_bias="0.062" />
+        app:layout_constraintHorizontal_bias="0.0"
+         />
 
     <TextView
         android:id="@+id/petSubTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="2 years, Female"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/petName"
-        app:layout_constraintHorizontal_bias="0.075"
-        android:textColor="@color/black"
-        android:textSize="@dimen/card_title"/>
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black_semi_transparent"
+        android:textSize="@dimen/card_subtitle"
+         />
 
-
-    <LinearLayout
-        android:id="@+id/petType_layout"
-        android:layout_width="0dp"
+    <TextView
+        android:id="@+id/member"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Member since November, 2016"
+        android:gravity="left"
         android:layout_marginLeft="@dimen/margin_left"
         android:layout_marginRight="@dimen/margin_right"
-        android:layout_marginTop="32dp"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/petSubTitle"
-        android:layout_marginStart="@dimen/margin_left"
-        android:layout_marginEnd="@dimen/margin_right">
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_pets_black_24dp" />
-
-        <TextView
-            android:id="@+id/petType"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_right"
-            android:textSize="@dimen/card_subtitle"
-            android:textColor="@color/black"
-            android:text="Dog | German Sheferd" />
-
-    </LinearLayout>
+        android:layout_marginTop="19dp"
+        android:textColor="@color/black_semi_transparent"
+        android:textSize="@dimen/card_subtitle"
+        app:layout_constraintHorizontal_bias="0.0"
+        />
 
     <LinearLayout
-        android:id="@+id/dateOfBirth_layout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/saperator1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/saperator_height"
         android:layout_marginLeft="@dimen/margin_left"
         android:layout_marginRight="@dimen/margin_right"
-        android:layout_marginTop="@dimen/margin_top"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/profile_section_top"
+        android:background="@color/teal_bg"
+        android:orientation="vertical"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/petType_layout"
-        android:layout_marginStart="@dimen/margin_left"
-        android:layout_marginEnd="@dimen/margin_right">
+        app:layout_constraintTop_toBottomOf="@+id/member"
+        />
 
-        <ImageView
-            android:layout_width="30sp"
-            android:layout_height="30sp"
-            android:src="@drawable/ic_cake_black_24dp" />
-
-        <TextView
-            android:id="@+id/dateOfBirth"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_left"
-            android:textSize="@dimen/card_subtitle"
-            android:textColor="@color/black"
-            android:text="22 Aug 2015" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/medical_layout"
-        android:layout_width="0dp"
+    <TextView
+        android:id="@+id/about_textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="She is friendly and very active also she eats 3 times a day. Royal Canine is its favorite food."
+        android:textSize="@dimen/card_subtitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black_semi_transparent"
+        android:elevation="5sp"
         android:layout_marginLeft="@dimen/margin_left"
         android:layout_marginRight="@dimen/margin_right"
-        android:layout_marginTop="@dimen/margin_top"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dateOfBirth_layout"
-        android:layout_marginStart="@dimen/margin_left"
-        android:layout_marginEnd="@dimen/margin_right">
+        android:layout_marginTop="@dimen/profile_section_top"
+        app:layout_constraintTop_toBottomOf="@+id/saperator1"
+        />
 
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_local_hospital_black_24dp" />
-
-        <TextView
-            android:id="@+id/medical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_left"
-            android:textSize="@dimen/card_subtitle"
-            android:textColor="@color/black"
-            android:text="Healthy | Vaccination complete" />
-
-    </LinearLayout>
 
 
     <LinearLayout
-        android:id="@+id/info_layout"
-        android:layout_width="0dp"
+        android:id="@+id/saperator2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_marginTop="@dimen/profile_section_top"
+        android:background="@color/teal_bg"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_textView"
+        />
+
+
+
+    <TextView
+        android:id="@+id/breed_label"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Breed"
+        android:textSize="@dimen/card_subtitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black_semi_transparent"
+        android:elevation="5sp"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="@dimen/profile_section_top"
+        app:layout_constraintTop_toBottomOf="@+id/saperator2"
+        />
+
+    <TextView
+        android:id="@+id/breed_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="German Sheferd"
+        android:textSize="@dimen/card_desc"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black_semi_transparent"
+        android:elevation="5sp"
         android:layout_marginLeft="@dimen/margin_left"
         android:layout_marginRight="@dimen/margin_right"
         android:layout_marginTop="@dimen/margin_top"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/breed_label"
+        app:layout_constraintHorizontal_bias="0.0"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/saperator3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/saperator_height"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_marginTop="@dimen/profile_section_top"
+        android:background="@color/teal_bg"
+        android:orientation="vertical"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/medical_layout"
-        android:layout_marginStart="@dimen/margin_left"
-        android:layout_marginEnd="@dimen/margin_right">
+        app:layout_constraintTop_toBottomOf="@+id/breed_textView"
+        />
 
-        <ImageView
-            android:layout_width="30sp"
-            android:layout_height="30sp"
-            android:src="@drawable/ic_info_outline_black_24dp" />
 
-        <TextView
-            android:id="@+id/petDesc"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin_left"
-            android:textSize="@dimen/card_subtitle"
-            android:textColor="@color/black"
-            android:text="She is very friendly and active. prefer her meals at 10 in morning and 8 in night" />
+    <TextView
+        android:id="@+id/birt_date_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Date Of Birth"
+        android:textSize="@dimen/card_subtitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black_semi_transparent"
+        android:elevation="5sp"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="@dimen/profile_section_top"
+        app:layout_constraintTop_toBottomOf="@+id/saperator3"
+        />
 
-    </LinearLayout>
+    <TextView
+        android:id="@+id/birth_date_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="20 Oct 2015"
+        android:textSize="@dimen/card_desc"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black_semi_transparent"
+        android:elevation="5sp"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintTop_toBottomOf="@+id/birt_date_label"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/saperator4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/saperator_height"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_marginTop="@dimen/profile_section_top"
+        android:background="@color/teal_bg"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birth_date_textView"
+        />
+
+    <TextView
+        android:id="@+id/medical_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Medical Condition"
+        android:textSize="@dimen/card_subtitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black_semi_transparent"
+        android:elevation="5sp"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="@dimen/profile_section_top"
+        app:layout_constraintTop_toBottomOf="@+id/saperator4"
+        />
+
+    <TextView
+        android:id="@+id/medical_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="Healthy, vaccinations course is complete"
+        android:textSize="@dimen/card_desc"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/black_semi_transparent"
+        android:elevation="5sp"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="@dimen/margin_top"
+        app:layout_constraintTop_toBottomOf="@+id/medical_label"
+        />
 
 </android.support.constraint.ConstraintLayout>

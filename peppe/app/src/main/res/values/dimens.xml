@@ -35,6 +35,15 @@
     <dimen name="icon_width">35dp</dimen>
     <dimen name="icon_height">35dp</dimen>
 
+    <!-- profile -->
+
+    <dimen name="profile_title">32sp</dimen>
+    <dimen name="profile_margin_top">24dp</dimen>
+    <dimen name="profile_image_height">250dp</dimen>
+    <dimen name="profile_section_top">20dp</dimen>
+    <dimen name="saperator_height">2dp</dimen>
+    <dimen name="menu_icon_width">30dp</dimen>
+    <dimen name="menu_icon_height">30dp</dimen>
 
 
 </resources>
