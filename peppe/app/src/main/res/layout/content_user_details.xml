@@ -84,7 +84,7 @@
     <LinearLayout
         android:id="@+id/saperator1"
         android:layout_width="0dp"
-        android:layout_height="2dp"
+        android:layout_height="1dp"
         android:layout_marginLeft="@dimen/margin_left"
         android:layout_marginRight="@dimen/margin_right"
         android:layout_marginTop="@dimen/profile_section_top"
@@ -93,8 +93,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/member_textView"
-        android:layout_marginStart="@dimen/margin_left"
-        android:layout_marginEnd="@dimen/margin_right" />
+        />
 
 
     <RelativeLayout
@@ -109,8 +108,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/saperator1"
-        android:layout_marginStart="@dimen/margin_left"
-        android:layout_marginEnd="@dimen/margin_right">
+        >
 
         <TextView
             android:layout_width="wrap_content"
@@ -133,7 +131,7 @@
     <LinearLayout
         android:id="@+id/saperator2"
         android:layout_width="0dp"
-        android:layout_height="2dp"
+        android:layout_height="1dp"
         android:layout_marginLeft="@dimen/margin_left"
         android:layout_marginRight="@dimen/margin_right"
         android:layout_marginTop="@dimen/profile_section_top"
@@ -142,8 +140,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/invite_freinds_layout"
-        android:layout_marginStart="@dimen/margin_left"
-        android:layout_marginEnd="@dimen/margin_right" />
+        />
 
     <RelativeLayout
         android:id="@+id/coupon_layout"
@@ -157,8 +154,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/saperator2"
-        android:layout_marginStart="@dimen/margin_left"
-        android:layout_marginEnd="@dimen/margin_right">
+        >
 
         <TextView
             android:id="@+id/cpn_textView"
@@ -182,7 +178,7 @@
     <LinearLayout
         android:id="@+id/saperator3"
         android:layout_width="0dp"
-        android:layout_height="2dp"
+        android:layout_height="1dp"
         android:layout_marginLeft="@dimen/margin_left"
         android:layout_marginRight="@dimen/margin_right"
         android:layout_marginTop="@dimen/profile_section_top"
@@ -239,8 +235,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/help_layout"
-        android:layout_marginStart="@dimen/margin_left"
-        android:layout_marginEnd="@dimen/margin_right" />
+        />
 
     <RelativeLayout
         android:id="@+id/feedback_layout"
@@ -255,8 +250,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/saperator4"
-        android:layout_marginStart="@dimen/margin_left"
-        android:layout_marginEnd="@dimen/margin_right">
+        >
 
         <TextView
             android:layout_width="wrap_content"

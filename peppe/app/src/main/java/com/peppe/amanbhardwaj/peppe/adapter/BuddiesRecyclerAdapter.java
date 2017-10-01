@@ -69,7 +69,7 @@ public class BuddiesRecyclerAdapter extends RecyclerView.Adapter<RecyclerView.Vi
         holder.getBuddyDesc().setTypeface(regularFont);
 
 
-        Picasso.with(mContext).load(R.drawable.dog1).into(holder.getBuddyImg());
+        Picasso.with(mContext).load(R.drawable.puppy1).into(holder.getBuddyImg());
     }
 
 

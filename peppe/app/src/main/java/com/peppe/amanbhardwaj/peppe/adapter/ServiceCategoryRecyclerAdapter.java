@@ -43,9 +43,9 @@ public class ServiceCategoryRecyclerAdapter extends RecyclerView.Adapter<Recycle
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         Log.d("inside Overview","onCreateViewHolder" );
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View v = inflater.inflate(R.layout.content_category_item1, parent, false);
-        RecyclerView.ViewHolder viewHolder = new ServiceCategoryViewHolder(v);
-        return viewHolder;
+      //  View v = inflater.inflate(R.layout.content_category_item1, parent, false);
+       // RecyclerView.ViewHolder viewHolder = new ServiceCategoryViewHolder(v);
+        return null;
     }
 
     @Override
@@ -55,7 +55,7 @@ public class ServiceCategoryRecyclerAdapter extends RecyclerView.Adapter<Recycle
         View itemView = viewHolder.itemView;
 
         holder.getCategoryName().setText(mCategories.get(position).getServiceCategoryName());
-        holder.getActiveDealCount().setText(mCategories.get(position).getTotalActiveDeals()+" Active Deals");
+        //holder.getActiveDealCount().setText(mCategories.get(position).getTotalActiveDeals()+" Active Deals");
         holder.getDisplayPic().setBackgroundResource(R.drawable.training1);
 
         Typeface regularFont = Typeface.createFromAsset(mContext.getAssets(), "comfortaa_regular.ttf");
@@ -63,10 +63,10 @@ public class ServiceCategoryRecyclerAdapter extends RecyclerView.Adapter<Recycle
         Typeface lightFont = Typeface.createFromAsset(mContext.getAssets(), "comfortaa_light.ttf");
 
         holder.getCategoryName().setTypeface(regularFont);
-        holder.getActiveDealCount().setTypeface(regularFont);
+       // holder.getActiveDealCount().setTypeface(regularFont);
 
 
-        //Picasso.with(mContext).load(R.drawable.training1).into(holder.getDisplayPic());
+        Picasso.with(mContext).load(R.drawable.puppy1).into(holder.getDisplayPic());
     }
 
 

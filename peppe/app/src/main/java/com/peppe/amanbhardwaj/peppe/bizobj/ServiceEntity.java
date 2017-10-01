@@ -18,6 +18,8 @@ public class ServiceEntity implements BizObj{
     private String Description;
     private String totalCapacity;
     private String serviceType;
+    private String subCategoryDesc;
+    private List<String> urlsList;
 
     private List<Services> servicesList;
 

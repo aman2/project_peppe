@@ -15,15 +15,15 @@ import com.peppe.amanbhardwaj.peppe.R;
 public class ServiceCategoryViewHolder extends  RecyclerView.ViewHolder {
 
     private TextView categoryName;
-    private TextView activeDealCount;
-    private LinearLayout displayPic;
+    //private TextView activeDealCount;
+    private ImageView displayPic;
 
 
     public ServiceCategoryViewHolder(View v) {
         super(v);
-        categoryName = (TextView)v.findViewById(R.id.categoryName1);
-        activeDealCount = (TextView)v.findViewById(R.id.activeDeal1);
-        displayPic = (LinearLayout) v.findViewById(R.id.displayPic1);
+        categoryName = (TextView)v.findViewById(R.id.list_category_title);
+        //activeDealCount = (TextView)v.findViewById(R.id.activeDeal1);
+        displayPic = (ImageView) v.findViewById(R.id.list_category_pic);
 
     }
 
@@ -31,11 +31,11 @@ public class ServiceCategoryViewHolder extends  RecyclerView.ViewHolder {
         return categoryName;
     }
 
-    public TextView getActiveDealCount() {
+    /*public TextView getActiveDealCount() {
         return activeDealCount;
-    }
+    }*/
 
-    public LinearLayout getDisplayPic() {
+    public ImageView getDisplayPic() {
         return displayPic;
     }
 

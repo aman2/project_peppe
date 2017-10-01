@@ -314,7 +314,7 @@ public class loginActivity extends AppCompatActivity implements
     }
 
     private void navigateToDashboard(){
-        Intent intent = new Intent(this,LandingPageActivity.class);
+        Intent intent = new Intent(this,Dashboard.class);
         startActivity(intent);
     }
 }
